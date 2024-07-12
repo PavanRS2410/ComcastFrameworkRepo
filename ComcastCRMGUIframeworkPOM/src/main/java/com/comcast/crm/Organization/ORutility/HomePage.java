@@ -14,6 +14,9 @@ public class HomePage
 	@FindBy(xpath = "//img[@src = 'themes/softed/images/user.PNG']")
 	private WebElement img;
 	
+	@FindBy(linkText =  "Products")
+	private WebElement products_link;
+	
 	@FindBy(xpath = "//a[. = 'Sign Out']")
 	private WebElement sign_out;
 
@@ -31,6 +34,10 @@ public class HomePage
 		return org_link;
 	}
 	
+	public WebElement getProducts_link() {
+		return products_link;
+	}
+
 	public WebElement getImg() 
 	{
 		return img;
