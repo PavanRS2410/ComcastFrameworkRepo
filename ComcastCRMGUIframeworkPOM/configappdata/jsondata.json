@@ -1,0 +1,10 @@
+{
+
+"Browser" : "chrome"
+"URL" :  "http://localhost:8888/"
+"UN" : "admin"
+"PWD": "manager"
+"timeout": 20
+
+
+}
